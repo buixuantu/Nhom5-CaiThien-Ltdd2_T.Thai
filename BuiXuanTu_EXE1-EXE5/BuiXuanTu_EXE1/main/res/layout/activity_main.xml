@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+  <TextView
+      style="@style/titleApp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Sở thích hằng ngày" />
+
+  <TextView
+      android:id="@+id/tv1"
+      android:textSize="10dp"
+      android:gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2"
+      android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      <TextView
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Người viết :"/>
+
+      <EditText
+          android:id="@+id/ed1"
+          style="@style/txtNhap"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Miêu tả bản thân:   "/>
+
+      <EditText
+          android:id="@+id/ed2"
+          style="@style/txtNhap"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+      <TextView
+
+          android:text="Sở thích của bạn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <RadioGroup
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdgame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Chơi Game" />
+
+        <RadioButton
+
+            android:id="@+id/rdread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đọc sách" />
+
+        <RadioButton
+            android:id="@+id/rdfootball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đá bóng" />
+      </RadioGroup>
+
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="vertical">
+    <Button
+        style="@style/luu"
+        android:id="@+id/bt1"
+        android:text="Lưu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="3"
+      android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rv_choigame"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"></android.support.v7.widget.RecyclerView>
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rv_docsach"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"></android.support.v7.widget.RecyclerView>
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/rv_dabong"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+  </LinearLayout>
+
+
+</LinearLayout>
