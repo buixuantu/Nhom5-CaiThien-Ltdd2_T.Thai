@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:coutn="http://schemas.android.com/tools"
+    android:oneshot="false">
+  <item android:duration="100"
+      android:drawable="@drawable/mot">
+      ></item>
+    <item android:duration="100"
+        android:drawable="@drawable/hai"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/ba"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/bon"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/nam"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/sau"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/bay"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/tam"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/chin"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/muoi"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/muoimot"></item>
+    <item android:duration="100"
+        android:drawable="@drawable/muoihai"></item>
+
+</animation-list>
