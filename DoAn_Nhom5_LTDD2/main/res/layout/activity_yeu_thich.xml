@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghi Chú"
+        android:textSize="25dp"
+        android:textColor="#FF000000"
+        android:gravity="center"/>
+   <!-- <ListView
+        android:id="@+id/lv_YeuThich"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_YeuThich"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_TenMonYeuThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cc"
+            android:textColor="#11110F"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_BuaAn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cc"
+            android:textColor="#11110F"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_ChinhPhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#11110F"
+            android:text="cc"
+            />
+    </LinearLayout>
+
+</LinearLayout>

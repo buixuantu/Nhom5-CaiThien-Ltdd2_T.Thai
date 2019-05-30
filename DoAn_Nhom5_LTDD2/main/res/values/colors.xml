@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="maumienbac">#37D53D</color>
+    <color name="m1">#0A32F7</color>
+    <color name="mb">#0AF72A</color>
+    <color name="mt">#2243E7</color>
+    <color name="mn">#F44336</color>
+    <color name="bg">#FFFFFF</color>
+    <color name="bgg">#DA2121</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fl_MB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="56dp"
+        android:src="@drawable/logomb"
+        android:backgroundTint="@color/mb"
+        android:visibility="invisible"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fl_MN"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/logomt"
+        android:backgroundTint="@color/mn"
+        android:visibility="invisible"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fl_MT"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/logomiennam"
+        android:backgroundTint="@color/mt"
+        android:visibility="invisible"
+        />
+
+
+</FrameLayout>

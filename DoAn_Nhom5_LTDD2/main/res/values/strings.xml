@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DoAn_Nhom5</string>
+    <string name="TieuDe">Hướng Dẫn Nấu Ăn</string>
+    <string name="MoiChon">Mời Bạn Chọn Vùng Miền : </string>
+    <string name="MienBac">Miền Bắc</string>
+    <string name="MienTrung">Miền Trung</string>
+    <string name="MienNam">Miền Nam</string>
+    <string name="Thoat">Thoát</string>
+    <string name="MonMienBac">Ẩm Thực Miền Bắc</string>
+    <string name="MonMienTrung">Ẩm Thực Miền Trung</string>
+    <string name="dsMonMienTrung">Danh sách các món ăn nổi tiếng Miền Bắc</string>
+    <string name="dsMonMienBac">Danh sách các món ăn nổi tiếng Miền Bắc</string>
+    <string name="nutXemMB">Xem</string>
+    <string name="nutXemMT">Xem</string>
+    <string name="HuongDan">Hướng Dẫn</string>
+
+    <string name="MonMienNam">Ẩm Thực Miền Nam</string>
+    <string name="dsMonMienNam">Danh sách các món ăn nổi tiếng Miền Nam</string>
+    <string name="nutXemMN">Xem</string>
+
+</resources>
